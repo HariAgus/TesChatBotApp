@@ -10,7 +10,7 @@ object BotResponse {
         val message = _message.toLowerCase()
 
         return when {
-            message.contains("Hello") -> {
+            message.contains("hello") -> {
                 when (random) {
                     0 -> "Hello there!"
                     1 -> "Sup"
@@ -19,7 +19,7 @@ object BotResponse {
                 }
             }
 
-            message.contains("How are you") -> {
+            message.contains("how are you") -> {
                 when (random) {
                     0 -> "I'm doing fine, thanks for asking!"
                     1 -> "I'm hungry"
