@@ -1,7 +1,8 @@
-package com.nasiha.chatbot
+package com.nasiha.chatbot.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.nasiha.chatbot.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
