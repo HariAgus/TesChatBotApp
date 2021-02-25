@@ -46,6 +46,16 @@ object BotResponse {
                 }
             }
 
+            /**
+             * Add questions
+             */
+            message.contains("whats your name") -> {
+                when (random) {
+                    0 -> "My is Chat Bot"
+                    else -> ""
+                }
+            }
+
             message.contains("time") && message.contains("?") -> {
                 Time.timeStamp()
             }
