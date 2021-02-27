@@ -47,11 +47,21 @@ object BotResponse {
             }
 
             /**
-             * Add questions
+             * Add questions name
              */
             message.contains("whats your name") -> {
                 when (random) {
                     0 -> "My is Chat Bot"
+                    else -> ""
+                }
+            }
+
+            /**
+             * Add questions old
+             */
+            message.contains("how are you old") -> {
+                when (random) {
+                    0 -> "18 old"
                     else -> ""
                 }
             }
