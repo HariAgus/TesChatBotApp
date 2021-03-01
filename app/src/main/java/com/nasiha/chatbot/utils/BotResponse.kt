@@ -66,6 +66,13 @@ object BotResponse {
                 }
             }
 
+            message.contains("i love you?") -> {
+                when (random) {
+                    0 -> "I love you to"
+                    else -> ""
+                }
+            }
+
             message.contains("time") && message.contains("?") -> {
                 Time.timeStamp()
             }
