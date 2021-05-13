@@ -1,3 +1,3 @@
 # Chat Bot App
 
-This is Application Chat Bot
+This is simple Application Chat Bot
